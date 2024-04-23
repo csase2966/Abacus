@@ -5,9 +5,10 @@ import { Home } from "./Home";
 import { About } from "./About";
 import { Contact } from "./Contact";
 import { EnquireNow } from "./EnquireNow";
+import { CourseOffered } from "./CourseOffered";
 
 
-import logo from '../images/logo1.jpg'
+import logo from '../images/logo1.jpeg'
 import Image from 'react-bootstrap/Image';
 import './Header.css';
 
@@ -20,6 +21,8 @@ const Header=()=> {
     const enquireNow=useRef(null);
     const home= useRef(null);
     const contact=useRef(null);
+    const courseOffered=useRef(null);
+
     // const services=useRef(null);
     
 
@@ -38,7 +41,7 @@ const Header=()=> {
                 <Image src={logo} width='40px' alt='Logo' loading='lazy'/>
                 
                 </div>
-                <div className="title_name">Eagle Refrigeration, Pune</div>
+                <div className="title_name">The Bright Future</div>
                 </div>
                 <div className="menu" onClick={()=>setMenuOpen(!menuOpen)}>
                     
@@ -55,6 +58,9 @@ const Header=()=> {
                     <li onClick={()=> scrollToSection(enquireNow)} className="link">Enquiry</li>
                     
                     <li onClick={()=> scrollToSection(aboutus)} className="link">About Us</li>
+
+                    <li onClick={()=> scrollToSection(courseOffered)} className="link">Courses</li>
+                    <li onClick={()=> scrollToSection(contact)} className="link">Contact</li>
                     
 
                 </ul>
@@ -64,11 +70,7 @@ const Header=()=> {
                 <div ref={home} className="home"><Home/></div>
             </div>
 
-            <div>
-                {/* <Suspense fallback={ <div>loading...still reamins? ..call on -7350235050/8856935638</div>}> */}
-                    <div ref={enquireNow} className="abooutus"><EnquireNow/></div>
-                {/* </Suspense> */}
-            </div>
+            
 
             <div>
                 {/* <div ref={services} className="services"><Services/></div> */}
@@ -83,8 +85,24 @@ const Header=()=> {
             </div>
 
            
+            
+            <div>
+                <div ref={courseOffered} className="courseOffered"><CourseOffered/></div>
+            </div>
+
+            <div>
+
+            </div>
+
             <div>
                 <div ref={contact} className="contactus"><Contact/></div>
+            </div>
+
+
+            <div>
+                {/* <Suspense fallback={ <div>loading...still reamins? ..call on -7350235050/8856935638</div>}> */}
+                    <div ref={enquireNow} className="abooutus"><EnquireNow/></div>
+                {/* </Suspense> */}
             </div>
 
 

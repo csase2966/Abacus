@@ -2,7 +2,7 @@
 import './Home.css';
 import React from 'react';
 
-import first from '../images/first.jpg';
+import first from '../images/first.png';
 
 
 
@@ -12,13 +12,13 @@ export const Home=()=> {
         <div className='containerImage'>
                         
             <div className="text-center">
-                <img src={first} class="rounded" alt="image" width='100%'/>
+                <img src={first}  alt="image" width='100%'/>
                 
             </div>
                         
                         
         </div>
-        <h1 className='bestAC'>
+        {/* <h1 className='bestAC'>
             Best AC & Fridge Repair, Sevice, Installation in PCMC and Pune
 
         </h1>
@@ -28,12 +28,7 @@ export const Home=()=> {
                 Eagle Refrigeration & AC
             </div>
 
-        
-
-
-
-                
-        </div>
+        </div> */}
         
         
 
