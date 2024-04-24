@@ -7,13 +7,14 @@ import abacus from '../images/abacus.jpg';
 import yoga from '../images/yoga.jpg';
 import  Contact  from "./Contact";
 import { useRef,useState } from "react";
+import EnquireNow from './EnquireNow';
 
 export const CourseOffered = () => {
     const abacusEle=useRef(null);
 
     const scrollToSection = (elementRef)=>{
         window.scrollTo({
-            top:elementRef.current ,
+            top:elementRef.current.offsetTop ,
             behavior:'smooth'
         })
     }
@@ -44,7 +45,7 @@ export const CourseOffered = () => {
             <div className='card__body'>
             <a onClick={()=> scrollToSection(abacusEle)} id="bottle" >
                 <img src = {vedicMath} alt = "Freedom Blog"  onClick={()=> scrollToSection(abacusEle)}/>
-                <li></li>
+                
             </a>
             </div>
 
@@ -95,9 +96,12 @@ export const CourseOffered = () => {
 
             
         </div>
-        {/* <div>
+        
+        
+
+        <div>
                 <div ref={abacusEle} className="home"><Abacus/></div>
-            </div> */}
+        </div>
 
         
     </div>

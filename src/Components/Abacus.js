@@ -6,7 +6,7 @@ export const Abacus = () => {
   return (
     <div>
         <div className='abacus'>
-            <img src={abacus}/>
+            {/* <img src={abacus}/> */}
         </div>
     </div>
   )
