@@ -1,7 +1,6 @@
 import React from 'react';
 import './CourseOffered.css';
-import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
+import { Abacus } from './Abacus';
 import bhagvatGita from '../images/bhagvad-gita.jpg';
 import vedicMath from '../images/vedic.png';
 import abacus from '../images/abacus.jpg';
@@ -10,11 +9,11 @@ import  Contact  from "./Contact";
 import { useRef,useState } from "react";
 
 export const CourseOffered = () => {
-    const contact=useRef(null);
+    const abacusEle=useRef(null);
 
     const scrollToSection = (elementRef)=>{
         window.scrollTo({
-            top:elementRef.current -1000,
+            top:elementRef.current ,
             behavior:'smooth'
         })
     }
@@ -29,8 +28,8 @@ export const CourseOffered = () => {
             </div>
 
             <div className='card__body'>
-            <a onClick={()=> scrollToSection(contact)} id="bottle"  >
-                <img src = {bhagvatGita} alt = "Freedom Blog"  />
+            <a onClick={()=> scrollToSection(abacusEle)} id="bottle"  >
+                <img src = {bhagvatGita} alt = "Bhagwad Gita"  />
             </a>
             </div>
 
@@ -43,8 +42,9 @@ export const CourseOffered = () => {
             </div>
 
             <div className='card__body'>
-            <a onClick={()=> scrollToSection(contact)} id="bottle" >
-                <img src = {vedicMath} alt = "Freedom Blog" />
+            <a onClick={()=> scrollToSection(abacusEle)} id="bottle" >
+                <img src = {vedicMath} alt = "Freedom Blog"  onClick={()=> scrollToSection(abacusEle)}/>
+                <li></li>
             </a>
             </div>
 
@@ -95,6 +95,11 @@ export const CourseOffered = () => {
 
             
         </div>
+        {/* <div>
+                <div ref={abacusEle} className="home"><Abacus/></div>
+            </div> */}
+
+        
     </div>
 
 

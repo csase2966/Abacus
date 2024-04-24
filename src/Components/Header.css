@@ -20,7 +20,7 @@ nav{
     z-index: 10;
 }
 .logo{
-    
+    width: 40px;
     margin: 5px 0px 5px 10px;
 }
 .image_name{
@@ -89,6 +89,8 @@ nav .menu span{
     /* background-color: black; */
     border-radius: 0.2rem;
 }
+
+
 
 @media(max-width:480px){
     nav .menu{

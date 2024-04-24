@@ -4,8 +4,9 @@ import { useRef,useState } from "react";
 import { Home } from "./Home";
 import { About } from "./About";
 import { Contact } from "./Contact";
-import { EnquireNow } from "./EnquireNow";
+import  EnquireNow  from "./EnquireNow";
 import { CourseOffered } from "./CourseOffered";
+import { CourseDetails } from "./CourseDetails";
 
 
 import logo from '../images/logo1.jpeg'
@@ -13,7 +14,6 @@ import Image from 'react-bootstrap/Image';
 import './Header.css';
 
 
-// const EnquireNow = React.lazy(() => import('./EnquireNow'));
 
 const Header=()=> {
     const [menuOpen,setMenuOpen] = useState(false);
@@ -22,6 +22,7 @@ const Header=()=> {
     const home= useRef(null);
     const contact=useRef(null);
     const courseOffered=useRef(null);
+    
 
     // const services=useRef(null);
     
@@ -62,6 +63,7 @@ const Header=()=> {
                     <li onClick={()=> scrollToSection(courseOffered)} className="link">Courses</li>
                     <li onClick={()=> scrollToSection(contact)} className="link">Contact</li>
                     
+                    
 
                 </ul>
             </nav>
@@ -89,20 +91,25 @@ const Header=()=> {
             <div>
                 <div ref={courseOffered} className="courseOffered"><CourseOffered/></div>
             </div>
+            
 
             <div>
 
             </div>
 
-            <div>
+            {/* <div>
                 <div ref={contact} className="contactus"><Contact/></div>
-            </div>
+            </div> */}
 
 
             <div>
                 {/* <Suspense fallback={ <div>loading...still reamins? ..call on -7350235050/8856935638</div>}> */}
                     <div ref={enquireNow} className="abooutus"><EnquireNow/></div>
                 {/* </Suspense> */}
+            </div>
+
+            <div>
+                <div  className="coursedetails"><CourseDetails/></div>
             </div>
 
 

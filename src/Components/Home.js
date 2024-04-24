@@ -1,9 +1,12 @@
 // import 'semantic-ui-css/semantic.min.css';
 import './Home.css';
 import React from 'react';
+import logo from '../images/logo1.jpeg';
 
 import first from '../images/first.png';
 
+
+import { FloatingWhatsApp } from 'react-floating-whatsapp';
 
 
 export const Home=()=> {
@@ -12,7 +15,7 @@ export const Home=()=> {
         <div className='containerImage'>
                         
             <div className="text-center">
-                <img src={first}  alt="image" width='100%'/>
+                <img src={first}  alt="image" />
                 
             </div>
                         
@@ -30,9 +33,12 @@ export const Home=()=> {
 
         </div> */}
         
-        
+        <div>
+            <FloatingWhatsApp phoneNumber='7447721586' accountName='The Bright Future' avatar={logo}/>
+        </div>
 
 
     </div>
+    
   )
 }
