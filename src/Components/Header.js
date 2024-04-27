@@ -3,15 +3,16 @@ import React,{Suspense} from "react";
 import { useRef,useState } from "react";
 import { Home } from "./Home";
 import { About } from "./About";
-import { Contact } from "./Contact";
-import  EnquireNow  from "./EnquireNow";
+
 import { CourseOffered } from "./CourseOffered";
-import { CourseDetails } from "./CourseDetails";
+
 
 
 import logo from '../images/logo1.jpeg'
 import Image from 'react-bootstrap/Image';
 import './Header.css';
+import EnquireNow from "./EnquireNow";
+import { Contact } from "./Contact";
 
 
 
@@ -56,7 +57,7 @@ const Header=()=> {
                 <ul className={menuOpen ? "open" : ""}>
                     <li onClick={()=> scrollToSection(home)} className="link">Home</li>
                     {/* <li onClick={()=> scrollToSection(services)} className="link">Services</li> */}
-                    <li onClick={()=> scrollToSection(enquireNow)} className="link">Enquiry</li>
+                    <li onClick={()=> scrollToSection(enquireNow)} className="link">Book a Seat</li>
                     
                     <li onClick={()=> scrollToSection(aboutus)} className="link">About Us</li>
 
@@ -72,11 +73,6 @@ const Header=()=> {
                 <div ref={home} className="home"><Home/></div>
             </div>
 
-            
-
-            <div>
-                {/* <div ref={services} className="services"><Services/></div> */}
-            </div>
 
            
 
@@ -86,31 +82,23 @@ const Header=()=> {
                 <div ref={aboutus} className="aboutus"><About/></div>
             </div>
 
+            <div>
+                <div ref={enquireNow} className="aboutus"><EnquireNow/></div>
+            </div>
+
            
-            
+
             <div>
                 <div ref={courseOffered} className="courseOffered"><CourseOffered/></div>
             </div>
+
+
+            <div>
+                <div ref={contact} className="courseOffered"><Contact/></div>
+            </div>
+
+
             
-
-            <div>
-
-            </div>
-
-            {/* <div>
-                <div ref={contact} className="contactus"><Contact/></div>
-            </div> */}
-
-
-            <div>
-                {/* <Suspense fallback={ <div>loading...still reamins? ..call on -7350235050/8856935638</div>}> */}
-                    <div ref={enquireNow} className="abooutus"><EnquireNow/></div>
-                {/* </Suspense> */}
-            </div>
-
-            <div>
-                <div  className="coursedetails"><CourseDetails/></div>
-            </div>
 
 
 

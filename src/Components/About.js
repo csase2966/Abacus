@@ -42,21 +42,21 @@ export const About = () => {
           We are committed to excellence in online education. 
           This commitment is reflected in our dedication to:
           <div>
-          Quality: We uphold the highest standards of academic integrity and strive for excellence in all
+          <b>Quality:</b> We uphold the highest standards of academic integrity and strive for excellence in all
           aspects of our courses.
           </div>
           <div>
-          Accessibility: Our platform is designed to be user-friendly and inclusive, 
+          <b>Accessibility:</b> Our platform is designed to be user-friendly and inclusive, 
           allowing learners from diverse backgrounds to thrive.
           </div>
 
           <div>
-          Innovation: We embrace innovation in teaching and learning, leveraging cutting-edge 
+          <b>Innovation:</b> We embrace innovation in teaching and learning, leveraging cutting-edge 
           technologies and pedagogical approaches to enhance the learning experience.
           </div>
 
           <div>
-          Community: We foster a supportive and collaborative learning community where learners 
+          <b>Community:</b> We foster a supportive and collaborative learning community where learners 
           can connect with peers, share ideas, and collaborate on projects.
           </div>
 

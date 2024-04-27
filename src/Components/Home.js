@@ -34,7 +34,7 @@ export const Home=()=> {
         </div> */}
         
         <div>
-            <FloatingWhatsApp phoneNumber='7447721586' accountName='The Bright Future' avatar={logo}/>
+            <FloatingWhatsApp phoneNumber='9242912480' accountName='The Bright Future' avatar={logo}/>
         </div>
 
 
