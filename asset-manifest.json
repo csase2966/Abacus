@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Abacus/static/css/main.7c8de891.css",
+    "main.js": "/Abacus/static/js/main.36982534.js",
+    "static/media/first.png": "/Abacus/static/media/first.b48a41900fb3f524104a.png",
+    "static/media/Isense.jpeg": "/Abacus/static/media/Isense.d6ad3a4918d9bc1a964a.jpeg",
+    "static/media/logo1.jpeg": "/Abacus/static/media/logo1.b8aa857cdbfbbbb8b70b.jpeg",
+    "static/media/bhagvad-gita.jpg": "/Abacus/static/media/bhagvad-gita.ae3e1aef07fe1d2bd367.jpg",
+    "static/media/abacus.jpg": "/Abacus/static/media/abacus.d4af6ee687a3b60b0fbb.jpg",
+    "static/media/vedic.png": "/Abacus/static/media/vedic.214290392aa02a6a910a.png",
+    "static/media/wp.jpg": "/Abacus/static/media/wp.81016bad3a51dd52e445.jpg",
+    "index.html": "/Abacus/index.html",
+    "main.7c8de891.css.map": "/Abacus/static/css/main.7c8de891.css.map",
+    "main.36982534.js.map": "/Abacus/static/js/main.36982534.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c8de891.css",
+    "static/js/main.36982534.js"
+  ]
+}
