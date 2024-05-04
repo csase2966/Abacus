@@ -12,7 +12,9 @@ export const Contact = () => {
 
                     <div className='social_media'>
                     
-                        <p>Gmail :  thebrightfuture@gmail.com</p>
+                        <p>Gmail :  sn.brightfuture@gmail.com</p>
+
+                        <p>Address: Bachpalli Nijam Peth, Hydrabad</p>
                     </div>
                 </div>
 

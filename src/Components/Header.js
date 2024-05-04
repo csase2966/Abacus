@@ -62,7 +62,7 @@ const Header=()=> {
                     <li onClick={()=> scrollToSection(aboutus)} className="link">About Us</li>
 
                     <li onClick={()=> scrollToSection(courseOffered)} className="link">Courses</li>
-                    <li onClick={()=> scrollToSection(contact)} className="link">Contact</li>
+                    {/* <li onClick={()=> scrollToSection(contact)} className="link">Contact</li> */}
                     
                     
 
