@@ -39,8 +39,8 @@ const Header=()=> {
         <div className="container1" >
             <nav>
                 <div className="image_name">
-                <div className="logo">
-                <Image src={logo} width='40px' alt='Logo' loading='lazy'/>
+                <div className="logo" >
+                <Image src={logo} width='40px' alt='Logo' loading='lazy' onClick={()=> scrollToSection(home)}/>
                 
                 </div>
                 <div className="title_name">The Bright Future</div>
