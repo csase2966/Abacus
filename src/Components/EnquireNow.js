@@ -45,15 +45,15 @@ import { useState } from 'react';
                         Book a Seat
                     </div>
 
-                    <form className='ui form'  >
+                    <form className='ui form centered'  >
                         <div className='field'>
-                            <label>Name :</label>
+                            <label>Name : </label>
                             <input type='text' name='fullName' placeholder='Full Name'   value={fullName} onChange={onChange}
                             requied></input>
                         </div>
 
                         <div className='field'>
-                            <label>Mobile No :</label>
+                            <label>Mobile No : </label>
                             <input type='number' name='mobileNumber' id='phone' pattern='[0-9]{10}' value={mobileNumber}
                             maxLength='10'   onChange={onChange}
                              placeholder='Mobile Number' requied></input>

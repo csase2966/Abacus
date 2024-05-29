@@ -14,6 +14,7 @@
 
 .field{
     padding: 20px;
+    text-align: center;
 }
 
 .ui.form .field>label{
@@ -23,16 +24,19 @@
 .imageWP{
     margin-left: 15px;
     
+    
 }
 .btn_wp{
     display: "flex";
     justify-content: center;
     align-items: center;
-    margin-left: 80px;
+    /* margin-left: 80px; */
     margin-bottom: 10px;
+    text-align: center;
 }
 .wpBtnInside{
     /* style={{backgroundImage:`url(${wp})` ,backgroundSize:"cover",width:"150px",height:'40px'}} */
    width: 150px;
    height: 40px;
+   
 }
