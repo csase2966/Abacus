@@ -12,7 +12,7 @@ const Abacus = () => {
             <div>
            
             Welcome to our Abacus course, where we embark on a journey to unlock the power of 
-            mental math through the ancient art of Abacus computation. Prepare to discover a 
+            mental math through the art of Abacus computation. Prepare to discover a 
             centuries-old tool that continues to shape the way we approach mathematics and
              problem-solving today.
 
@@ -63,7 +63,7 @@ to solve math problems with ease and confidence.
 This course is designed for learners of all ages and backgrounds who wish to enhance 
 their mathematical abilities and develop a deeper appreciation for the beauty of numbers.
  Whether you're a student seeking to improve your math grades, a professional looking to sharpen your
-  mental math skills, or simply someone intrigued by the ancient art of Abacus computation, this
+  mental math skills, or simply someone intrigued by the art of Abacus computation, this
    course is for you. The course is open for the age group of 7 years and above.
 
                     </div>

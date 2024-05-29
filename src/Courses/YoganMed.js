@@ -12,7 +12,7 @@ const YoganMed = () => {
             <h2>Yoga and Meditation Course:</h2>
             <div>
             Welcome to our Yoga and Meditation course, where we invite you to explore the 
-            transformative power of these ancient practices in nurturing your mind, body, and spirit. 
+            transformative power of these practices in nurturing your mind, body, and spirit. 
             Prepare to embark on a journey of self-discovery, holistic wellness, and inner peace.
 
 
@@ -65,7 +65,7 @@ allowing you to live more fully and authentically in each moment.</div>
                 <div className='title'>Join Us:</div>
                     <div>
                     Embark on this enriching journey into the world of Yoga and Meditation and discover the profound
-                     benefits of these ancient practices for body, mind, and spirit. Prepare to cultivate a deeper 
+                     benefits of these practices for body, mind, and spirit. Prepare to cultivate a deeper 
                      sense of inner peace,
                      balance, and vitality as you journey towards greater self-awareness and holistic well-being.
                     </div>

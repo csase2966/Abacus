@@ -51,7 +51,7 @@ const BhagwadGita = () => {
                     <div>
                     This course is open to seekers of all backgrounds, whether you're new to the Bhagavad Gita 
                     or seeking deeper understanding. Whether you're a spiritual enthusiast, philosopher, or 
-                    simply curious about ancient wisdom, you'll find value in our exploration of this timeless text. 
+                    simply curious about wisdom, you'll find value in our exploration of this timeless text. 
                     The course is open for the age group of 6 years and above.
                     </div>
             </div>

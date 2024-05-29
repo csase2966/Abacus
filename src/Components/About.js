@@ -9,11 +9,11 @@ export const About = () => {
           At The Bright Future, we believe that learning knows no boundaries. 
           Our mission is to provide accessible, engaging, and innovative online learning opportunities for
           learners of all ages and backgrounds. Whether you're looking to enhance your professional skills,
-          or expand your knowledge on Ancient Indian Cultures, we're here to support you every step of the way.
+          or expand your knowledge on education, we're here to support you every step of the way.
         </div>
       </div>
 
-      <div className='story'><h2>Our Story</h2>
+      {/* <div className='story'><h2>Our Story</h2>
 
         <div className='storyInfo'>
           Founded in 2023, The Bright Future was born out of a passion for educating the world 
@@ -21,7 +21,7 @@ export const About = () => {
           break down barriers to education and empower individuals to create an awareness about cultures. 
           Since then, we've been dedicated to creating a platform that not only delivers high-quality content but also fosters a vibrant learning community.
         </div>
-      </div>
+      </div> */}
 
 
 

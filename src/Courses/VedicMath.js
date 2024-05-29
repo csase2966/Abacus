@@ -11,7 +11,7 @@ const VedicMath = () => {
         
             <h2>The Vedic Maths Course:</h2>
             <div>
-            Welcome to our Vedic Maths course, where ancient wisdom meets modern mathematics to
+            Welcome to our Vedic Maths course, where wisdom meets modern mathematics to
              unlock the power of mental math mastery. Prepare to discover a fascinating approach 
              to arithmetic that is not only efficient but also deeply intuitive.
 
@@ -21,7 +21,7 @@ const VedicMath = () => {
             <div>
                 <div className='title'>Course Overview:</div>
                 <div>
-                In this course, we'll delve into the ancient Indian system of mathematics known 
+                In this course, we'll delve into the Indian system of mathematics known 
                 as Vedic Maths. Developed thousands of years ago, Vedic Maths offers a holistic and
                  systematic approach to solving mathematical problems swiftly and accurately. From basic 
                  arithmetic to complex calculations, you'll learn techniques that will revolutionize the 
@@ -57,7 +57,7 @@ const VedicMath = () => {
                      enhance their mathematical skills and cultivate a deeper appreciation for the
                       beauty of numbers. Whether you're a student looking to improve your math grades,
                        a professional seeking to sharpen your mental math abilities, or simply someone
-                        curious about ancient wisdom, this course is for you. The course is open for the 
+                        curious about wisdom, this course is for you. The course is open for the 
                         age group of 7 years and above.
 
                     </div>
@@ -68,7 +68,7 @@ const VedicMath = () => {
                     <div>
                     Embark on this enriching journey into the world of Vedic Maths and unlock the
                      full potential of your mathematical mind. Prepare to be amazed as you discover
-                      the simplicity, elegance, and power of this ancient system of mathematics.
+                      the simplicity, elegance, and power of this system of mathematics.
         
                     </div>
             </div>
