@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Abacus/static/css/main.3974070d.css",
-    "main.js": "/Abacus/static/js/main.62c3117f.js",
+    "main.js": "/Abacus/static/js/main.423a7d40.js",
     "static/media/first.png": "/Abacus/static/media/first.b48a41900fb3f524104a.png",
     "static/media/Isense.jpeg": "/Abacus/static/media/Isense.d6ad3a4918d9bc1a964a.jpeg",
     "static/media/logo1.jpeg": "/Abacus/static/media/logo1.b8aa857cdbfbbbb8b70b.jpeg",
@@ -11,10 +11,10 @@
     "static/media/wp.jpg": "/Abacus/static/media/wp.81016bad3a51dd52e445.jpg",
     "index.html": "/Abacus/index.html",
     "main.3974070d.css.map": "/Abacus/static/css/main.3974070d.css.map",
-    "main.62c3117f.js.map": "/Abacus/static/js/main.62c3117f.js.map"
+    "main.423a7d40.js.map": "/Abacus/static/js/main.423a7d40.js.map"
   },
   "entrypoints": [
     "static/css/main.3974070d.css",
-    "static/js/main.62c3117f.js"
+    "static/js/main.423a7d40.js"
   ]
 }
