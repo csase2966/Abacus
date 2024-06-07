@@ -14,7 +14,10 @@ export const Contact = () => {
                     
                         <p>Gmail :  sn.brightfuture@gmail.com</p>
 
-                        <p>Address: Bachpalli Nijam Peth, Hydrabad</p>
+                        <p>Address: Bachupally, Mallampet Road
+                            Hyderabad,
+                            500090
+                        </p>
                     </div>
                 </div>
 
