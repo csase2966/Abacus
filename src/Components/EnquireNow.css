@@ -8,7 +8,13 @@
     margin-top: 1px;
     margin-bottom: 10px;
     max-width: 100%;
-    /* border: solid dimgrey ; */
+    border: solid dimgrey ;
+}
+.ui.grid {
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+    /* margin-left: -1rem; */
+    margin-right: -1rem;
 }
 
 
