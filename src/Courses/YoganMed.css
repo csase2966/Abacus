@@ -1,0 +1,20 @@
+.card__body img{
+
+
+    animation-name: animatemodal;
+    animation-duration: 10s;
+
+}
+
+@keyframes animatemodal {
+    from{
+        
+        opacity:0;
+    }
+    to{
+        
+        opacity: 1;
+    }
+    
+}
+

@@ -1,7 +1,6 @@
 
 
 
-
 .container{
     align-items: center;
     justify-content: center;
@@ -54,6 +53,7 @@
 .row1{
     display: flex;
     flex-wrap: wrap;
+    background-color: rgb(229, 229, 235);
 }
 
 

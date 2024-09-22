@@ -9,4 +9,25 @@
 }
 .card__body{
     padding: 5px;
+    
 }
+.card__body image{
+
+
+    animation-name: animatemodal;
+    animation-duration: 10s;
+
+}
+
+@keyframes animatemodal {
+    from{
+        
+        opacity:0;
+    }
+    to{
+        
+        opacity: 1;
+    }
+    
+}
+
