@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.785f25f3.css",
-    "main.js": "./static/js/main.01188f38.js",
+    "main.css": "./static/css/main.60fdbf77.css",
+    "main.js": "./static/js/main.86115669.js",
     "static/media/first.png": "./static/media/first.b48a41900fb3f524104a.png",
     "static/media/Isense.jpeg": "./static/media/Isense.d6ad3a4918d9bc1a964a.jpeg",
     "static/media/logo1.jpeg": "./static/media/logo1.b8aa857cdbfbbbb8b70b.jpeg",
@@ -10,11 +10,11 @@
     "static/media/vedic.png": "./static/media/vedic.214290392aa02a6a910a.png",
     "static/media/wp.jpg": "./static/media/wp.81016bad3a51dd52e445.jpg",
     "index.html": "./index.html",
-    "main.785f25f3.css.map": "./static/css/main.785f25f3.css.map",
-    "main.01188f38.js.map": "./static/js/main.01188f38.js.map"
+    "main.60fdbf77.css.map": "./static/css/main.60fdbf77.css.map",
+    "main.86115669.js.map": "./static/js/main.86115669.js.map"
   },
   "entrypoints": [
-    "static/css/main.785f25f3.css",
-    "static/js/main.01188f38.js"
+    "static/css/main.60fdbf77.css",
+    "static/js/main.86115669.js"
   ]
 }
