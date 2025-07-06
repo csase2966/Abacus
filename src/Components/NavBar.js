@@ -10,13 +10,15 @@ export const NavBar = () => {
     <nav>
       <ul>
       <div className="image_name">
-        <div className="logo" >
-                    <Image src={logo} width='40px' alt='Logo' loading='lazy'/>
-                    
-        </div>
-        <div className="title_name">The Bright Future</div>
-    </div>
-        <li className="links link_home">
+          <div className="logo" >
+                      <Image src={logo} width='40px' alt='Logo' loading='lazy'/>
+                      
+          </div>
+          <div 
+            className="title_name" >The Bright Future
+          </div>
+      </div>
+        <li  i className="links link_home">
           <NavLink to="/" id='link_home'>Home</NavLink>
         </li>
         <li className="links">

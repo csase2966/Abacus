@@ -3,19 +3,20 @@
     margin: 5px 0px 5px 1%;
 }
 .image_name{
-    display: flex;
+    display:flex;
     color: white;
     /* color:black; */
     font-weight: bold;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
     
 }
 .title_name{
     padding-left: 20%;
-    padding-right: 20%;
+    /* padding-right: 20%; */
     justify-content: center;
     align-items: center;
+    display:flex;
 }
 a{
     color: white;
@@ -23,13 +24,13 @@ a{
     
 }
 
-.links{
+/* .links{
     padding-top: 5%;
     margin-left: 1px;
     padding-right: 1%;
     
 }
-@media screen and (min-width :992px){
+ @media screen and (min-width :992px){
     .link_home{
         padding-left: 300px;
     }
@@ -49,4 +50,4 @@ a{
         padding-left: 50px;
     }
     
-}
+}  */

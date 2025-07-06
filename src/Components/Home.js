@@ -2,7 +2,7 @@
 import './Home.css';
 import React from 'react';
 import logo from '../images/logo1.jpeg';
-
+import { useNavigate } from 'react-router-dom';
 import first from '../images/first.png';
 
 
@@ -10,12 +10,19 @@ import { FloatingWhatsApp } from 'react-floating-whatsapp';
 
 
 export const Home=()=> {
+
+    const navigate=useNavigate();
+    const handleBookClick=()=>{
+        navigate('/bookNow');
+    }
+
   return (
     <div >
         <div className='containerImage'>
                         
             <div className="text-center">
                 <img src={first}  alt="image" />
+                <button  className='imgButton' onClick={handleBookClick}>Book Seat</button>
                 
             </div>
                         

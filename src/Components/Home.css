@@ -22,7 +22,7 @@
     max-width: 100%;
 }
 .containerImage{
-    width: 99%;
+    /* width: 99%; */
     margin: 1px;
     
 }
@@ -60,5 +60,15 @@
     height: auto;
     
     
+}
+
+.text-center button{
+    position:relative;
+    bottom: 20px;
+    right: 5px;
+    background-color: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
 }
 

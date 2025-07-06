@@ -34,7 +34,7 @@ const Header=()=> {
 
 
            
-
+                
             
 
             <div>
@@ -42,11 +42,12 @@ const Header=()=> {
             </div>
             <br/>
 
-            <div>
+            {/* <div>
                 <div  className="aboutus"><EnquireNow/></div>
-            </div>
+            </div> */}
 
             <br/>
+
 
             <div>
                 <div  className="courseOffered"><CourseOffered/></div>
